@@ -4,7 +4,7 @@ import os, datetime, time
 sim_title = "checkpoints_10B_runtest_100M"
 ##
 
-gem5_root_dir = "/home/khi103/git/gem5/"
+gem5_root_dir = "/home/khi103/gem5/"
 gem5_binary_file = gem5_root_dir+"build/X86/gem5.fast"
 se_mode_config_file = gem5_root_dir+"configs/deprecated/example/se.py"
 checkpoint_dir = "/home/shared/checkpoint_for_gem5/URP_10B/"
