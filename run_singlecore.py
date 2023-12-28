@@ -1,7 +1,7 @@
 import os, datetime, time
 
 ##Run parameters
-sim_title = "checkpoints_10B_runtest_100M"
+sim_title = "checkpoints_10B_runtest_1B"
 ##
 
 gem5_root_dir = "/home/khi103/gem5/"
