@@ -5,7 +5,7 @@ sim_title = "checkpoints_10B_runtest_1B"
 ##
 
 gem5_root_dir = "/home/khi103/gem5/"
-gem5_binary_file = gem5_root_dir+"build/X86/gem5.opt"
+gem5_binary_file = gem5_root_dir+"build/X86/gem5.fast"
 se_mode_config_file = gem5_root_dir+"configs/deprecated/example/se.py"
 checkpoint_dir = "/home/shared/checkpoint_for_gem5/URP_10B/"
 
@@ -25,7 +25,7 @@ se_mode_config_1 = {
     "l2_assoc" : "16",
     "cacheline_size" : "64",
     #"maxinsts" : "90000000000", #10B
-    "maxinsts" : "1000000000", #1B
+     "maxinsts" : "1000000000", #1B
     #"maxinsts" : "500000000", #500M
     #"maxinsts" : "100000000", #100M
     "checkpoint-restore" : "1", 
